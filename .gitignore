@@ -1,0 +1,28 @@
+# Виртуальное окружение
+venv/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Данные приложения
+data.json
+
+# Файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Экспортированные файлы
+*.xlsx
+*.csv
+
+# Логи
+*.log
