@@ -69,7 +69,7 @@ streamlit run app.py
 
 ## 🌐 Демо
 
-Приложение доступно онлайн: [Ссылка на Streamlit Cloud]
+Приложение доступно онлайн: [Streamlit Cloud](https://cyberriskmanager-j4scuphfhh6c2rogosszex.streamlit.app/)
 
 ## 📊 Функциональность
 
