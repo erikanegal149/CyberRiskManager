@@ -26,24 +26,25 @@ page = st.sidebar.radio(
 )
 
 # Роутинг страниц
-if page == "📊 Дашборд":
-    dashboard.render()
-elif page == "💼 Активы":
-    assets.render()
-elif page == "⚠️ Угрозы":
-    threats.render()
-elif page == "🔓 Уязвимости":
-    vulnerabilities.render()
-elif page == "📋 Оценка рисков":
-    risks.render()
-elif page == "📈 Матрица рисков":
-    matrix.render()
-elif page == "🛠️ План обработки":
-    treatment.render()
-elif page == "📉 Аналитика":
-    analytics.render()
-elif page == "📄 Отчёты":
-    reports.render()
+match page:
+    case "📊 Дашборд":
+        dashboard.render()
+    case "💼 Активы":
+        assets.render()
+    case "⚠️ Угрозы":
+        threats.render()
+    case "🔓 Уязвимости":
+        vulnerabilities.render()
+    case "📋 Оценка рисков":
+        risks.render()
+    case "📈 Матрица рисков":
+        matrix.render()
+    case "🛠️ План обработки":
+        treatment.render()
+    case "📉 Аналитика":
+        analytics.render()
+    case "📄 Отчёты":
+        reports.render()
 
 # Футер
 st.sidebar.markdown("---")
